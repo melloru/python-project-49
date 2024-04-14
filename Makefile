@@ -5,6 +5,6 @@ brain-games:
 build:
 	poetry build
 publish:
-	poetry build --dry-run
+	poetry publish --dry-run
 package-install:
 	python3 -m pip install --user dist/*.whl
