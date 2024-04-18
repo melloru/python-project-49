@@ -1,2 +1,4 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/melloru/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/melloru/python-project-49/actions)
+brain-even:
+https://asciinema.org/a/5wmFzW7w5olLhT5CRMqX9AeXp
+brain-calc:
+https://asciinema.org/a/G4CprbdDYZenlYW1BacdBl6Bq
