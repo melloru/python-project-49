@@ -1,6 +1,4 @@
 #!/user/bin/env python3
-# import sys
-# sys.path.insert(0,'/home/eugene/project/python-project-49')
 from brain_games import cli
 
 
@@ -22,4 +20,3 @@ def logic(answer, correct_answer, name):
 if __name__ == '__main__':
     main()
     logic()
-# print(sys.path[:])
