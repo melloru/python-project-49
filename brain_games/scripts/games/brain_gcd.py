@@ -1,3 +1,4 @@
+from math import gcd
 import prompt
 import random
 from brain_games.scripts import brain_game
@@ -5,13 +6,14 @@ from brain_games.scripts import brain_game
 
 def main():
     name = brain_game.main()
-    print('Answer "yes" if the number is even, otherwise answer "no"')
+    print('Find the greatest common divisor of given numbers.')
     for i in range(0, 3):
-        number = random.randint(1, 30)
-        print(f'Question: {number}')
+        num1 = random.randint(1, 100)
+        num2 = random.randint(1, 30)
+        print(f'Question: {num1} {num2}')
         answer = prompt.string('Your answer: ')
 
-        correct_answer = 'yes' if number % 2 == 0 else 'no'
+        correct_answer = gcd(num1, num2)
 
         if brain_game.logic(answer, correct_answer, name) is not None:
             return
