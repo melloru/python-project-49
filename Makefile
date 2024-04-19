@@ -13,3 +13,6 @@ publish:
 package-install:
 	python3 -m pip install --user dist/*.wh
 
+lint:
+	poetry run flake8
+
